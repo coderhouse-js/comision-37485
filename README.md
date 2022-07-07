@@ -17,3 +17,12 @@ Si te interesa seguir investigando por cada continedio de la clase, podes invest
 * Variables: https://www.w3schools.com/js/js_variables.asp
 * Condicionales: https://www.w3schools.com/js/js_if_else.asp
 * Ciclos: https://www.w3schools.com/js/js_loop_for.asp
+* Funciones: https://www.w3schools.com/js/js_functions.asp
+* Objetos: https://www.w3schools.com/js/js_objects.asp
+* Arrays: https://www.w3schools.com/js/js_arrays.asp
+* Funciones de Orden Superior: https://www.w3schools.com/js/js_array_methods.asp
+* DOM: https://www.w3schools.com/js/js_htmldom.asp
+* Eventos: https://www.w3schools.com/js/js_events.asp
+* LocalStorage: https://www.w3schools.com/js/js_api_web_storage.asp
+* Promesas: https://www.w3schools.com/js/js_promise.asp & https://www.w3schools.com/js/js_asynchronous.asp
+* AJAX: https://www.w3schools.com/js/js_api_fetch.asp
