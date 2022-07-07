@@ -34,9 +34,10 @@ Muchas veces la plataforma de coderhouse no funciona, por ende, si necesitas com
 ### Cursos Udemy
 
 Si te interesa investigar un poco mas, repasar HTML, y aprender como funciona Git, Github, y que es Gitflow, te dejo los links a los cursos
-Gitflow + Github: https://www.udemy.com/course/git-github-gitflow-sistemas-de-control-de-versiones/?referralCode=0217C44EB6A59DD76748
-HTML: https://www.udemy.com/course/curso-de-html5-introduccion-al-desarrollo-web/?referralCode=268085F639BC17F45B39
+* Gitflow + Github: https://www.udemy.com/course/git-github-gitflow-sistemas-de-control-de-versiones/?referralCode=0217C44EB6A59DD76748
+* HTML: https://www.udemy.com/course/curso-de-html5-introduccion-al-desarrollo-web/?referralCode=268085F639BC17F45B39
 
+**Si te interesan estos cursos, y no tenes para pagar 2USD (Precio de udemy) avisame y puedo darte un cupon gratuito :)**
 ## Colaboraciones
 
 Como en todo repositorio open-source, se viene el mangeo. Un follow a las siguientes cuentas serian de gran ayuda ☺
