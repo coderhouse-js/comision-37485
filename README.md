@@ -27,6 +27,16 @@ Si te interesa seguir investigando por cada continedio de la clase, podes invest
 * Promesas: https://www.w3schools.com/js/js_promise.asp & https://www.w3schools.com/js/js_asynchronous.asp
 * AJAX: https://www.w3schools.com/js/js_api_fetch.asp
 
+## Contacto
+
+Muchas veces la plataforma de coderhouse no funciona, por ende, si necesitas comunicarte conmigo, hacelo mediante Linkedin: https://www.linkedin.com/in/cristian-hourcade-340458176/
+
+### Cursos Udemy
+
+Si te interesa investigar un poco mas, repasar HTML, y aprender como funciona Git, Github, y que es Gitflow, te dejo los links a los cursos
+Gitflow + Github: https://www.udemy.com/course/git-github-gitflow-sistemas-de-control-de-versiones/?referralCode=0217C44EB6A59DD76748
+HTML: https://www.udemy.com/course/curso-de-html5-introduccion-al-desarrollo-web/?referralCode=268085F639BC17F45B39
+
 ## Colaboraciones
 
 Como en todo repositorio open-source, se viene el mangeo. Un follow a las siguientes cuentas serian de gran ayuda ☺
