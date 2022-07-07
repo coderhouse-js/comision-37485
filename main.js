@@ -17,4 +17,4 @@ function validarStock(stockDelProducto) {
     }
 }
 
-agregarAlCarrito('Zapatillas de toto', 0) 
+agregarAlCarrito('Zapatillas de toto', 0);
