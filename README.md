@@ -26,3 +26,13 @@ Si te interesa seguir investigando por cada continedio de la clase, podes invest
 * LocalStorage: https://www.w3schools.com/js/js_api_web_storage.asp
 * Promesas: https://www.w3schools.com/js/js_promise.asp & https://www.w3schools.com/js/js_asynchronous.asp
 * AJAX: https://www.w3schools.com/js/js_api_fetch.asp
+
+## Colaboraciones
+
+Como en todo repositorio open-source, se viene el mangeo. Un follow a las siguientes cuentas serian de gran ayuda ☺
+IG Agencia de marketing: https://www.instagram.com/becreativego/
+
+Tambien si queres colaborar con donaciones en crypto 😂
+BTC - BEP20 - 0xfa50c6eab77767da8cf9933bf9b36915e1bb8772
+ETH - BEP20 - 0xfa50c6eab77767da8cf9933bf9b36915e1bb8772
+USDT - BEP20 - 0xfa50c6eab77767da8cf9933bf9b36915e1bb8772
