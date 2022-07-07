@@ -33,6 +33,6 @@ Como en todo repositorio open-source, se viene el mangeo. Un follow a las siguie
 IG Agencia de marketing: https://www.instagram.com/becreativego/
 
 Tambien si queres colaborar con donaciones en crypto 😂
-BTC - BEP20 - 0xfa50c6eab77767da8cf9933bf9b36915e1bb8772
-ETH - BEP20 - 0xfa50c6eab77767da8cf9933bf9b36915e1bb8772
-USDT - BEP20 - 0xfa50c6eab77767da8cf9933bf9b36915e1bb8772
+* BTC - BEP20 - `0xfa50c6eab77767da8cf9933bf9b36915e1bb8772`
+* ETH - BEP20 - `0xfa50c6eab77767da8cf9933bf9b36915e1bb8772`
+* USDT - BEP20 - `0xfa50c6eab77767da8cf9933bf9b36915e1bb8772`
