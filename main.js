@@ -5,6 +5,10 @@ function agregarAlCarrito(producto){
     console.log(carrito);
 }
 
+const funcion = () => {
+    
+}
+
 // Deberia llamarlo el usuario al agregar un producto al carrito
 agregarAlCarrito({id: 9123, name: "Gorra adidas", price: 900})
 agregarAlCarrito({id: 3727, name: "Zapas adidas", price: 200})
