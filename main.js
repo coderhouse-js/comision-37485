@@ -29,14 +29,20 @@ productos.forEach((producto) => {
         </div>
         <img src="${producto.img}">
         <h4>${producto.title}</h4>
-        <a class="boton" id="${idButton}">Añadir Al Carrito</a>
+        <a class="boton" id="${idButton}" data-id="${producto.id}">Añadir Al Carrito</a>
     </div>`;
 })
 
 productos.forEach((producto) => {
     const idButton = `add-cart${producto.id}` 
     document.getElementById(idButton).addEventListener('click', () => {
-        alert("hola :)");   
+        carrito.push(producto);
+        // const nodo = event.target;
+        // const idProducto = nodo.getAttribute("data-id")
+        // const indiceProducto = productos.findIndex(producto => producto.id == idProducto);
+        // const producto = productos[indiceProducto];
+        // carrito.push(producto);
+        // console.log(carrito);
     })
 });
 
