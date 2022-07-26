@@ -1,31 +1,47 @@
 const carrito = [];
 
-function agregarAlCarrito(producto){
-    carrito.push(producto);
-    console.log(carrito);
-}
+const productos = [
+    {
+        id:1,
+        title:"Zapatilla nike",
+        img: "https://www.marthadebayle.com/wp-content/uploads/2021/07/Dia-mundial-del-perro.jpg",
+        price: 900
+    },
+    {
+        id:2,
+        title:"Zapatilla Jagguar",
+        img: "https://www.marthadebayle.com/wp-content/uploads/2021/07/Dia-mundial-del-perro.jpg",
+        price: 900
+    },
+    {
+        id:3,
+        title:"Zapatilla Adidas",
+        img: "https://www.marthadebayle.com/wp-content/uploads/2021/07/Dia-mundial-del-perro.jpg",
+        price: 900
+    },
+];
 
-const funcion = () => {
-    
-}
+productos.forEach((producto) => {
+    const idButton = `add-cart${producto.id}` 
+    document.getElementById("seccion-card").innerHTML += `<div class="card">
+        <div class="precio">
+            <p>$1500</p>
+        </div>
+        <img src="${producto.img}">
+        <h4>${producto.title}</h4>
+        <a class="boton" id="${idButton}">Añadir Al Carrito</a>
+    </div>`;
+})
 
-// Deberia llamarlo el usuario al agregar un producto al carrito
-agregarAlCarrito({id: 9123, name: "Gorra adidas", price: 900})
-agregarAlCarrito({id: 3727, name: "Zapas adidas", price: 200})
-agregarAlCarrito({id: 8818, name: "Remera adidas", price: 100})
+productos.forEach((producto) => {
+    const idButton = `add-cart${producto.id}` 
+    document.getElementById(idButton).addEventListener('click', () => {
+        alert("hola :)");   
+    })
+});
 
 
-function borrarProductoDelCarrito(idDelProducto){
-    const index = carrito.findIndex((producto) => producto.id === idDelProducto);
 
-    if(index !== -1) {
-        carrito.splice(index, 1);
-    }
 
-    console.log(carrito);
-}
 
-// Deberia llamarlo el usuario al hacer click ene l boton de borrar
-borrarProductoDelCarrito(9123);
-borrarProductoDelCarrito(8818);
-borrarProductoDelCarrito(3);
+// document.getElementById("seccion-card").innerHTML = cards;
