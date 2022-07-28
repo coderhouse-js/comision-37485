@@ -1,3 +1,6 @@
+const totalCarrito = localStorage.getItem("totalCarrito");
+document.getElementById("cart-total").innerHTML = totalCarrito;
+
 const carrito = [];
 
 const productos = [
@@ -25,7 +28,7 @@ productos.forEach((producto) => {
     const idButton = `add-cart${producto.id}` 
     document.getElementById("seccion-card").innerHTML += `<div class="card">
         <div class="precio">
-            <p>$1500</p>
+            <p>$${producto.price}</p>
         </div>
         <img src="${producto.img}">
         <h4>${producto.title}</h4>
@@ -37,12 +40,12 @@ productos.forEach((producto) => {
     const idButton = `add-cart${producto.id}` 
     document.getElementById(idButton).addEventListener('click', () => {
         carrito.push(producto);
-        // const nodo = event.target;
-        // const idProducto = nodo.getAttribute("data-id")
-        // const indiceProducto = productos.findIndex(producto => producto.id == idProducto);
-        // const producto = productos[indiceProducto];
-        // carrito.push(producto);
-        // console.log(carrito);
+
+        const total = carrito.reduce((acumulador, producto) => acumulador + producto.price, 0);
+
+        // document.getElementById("cart-total").innerHTML = carrito.length + Number(totalCarrito) + "- $"+total;
+        document.getElementById("cart-total").innerHTML = `${carrito.length + Number(totalCarrito)}  - $${total}`;
+        localStorage.setItem("totalCarrito", carrito.length)
     })
 });
 
