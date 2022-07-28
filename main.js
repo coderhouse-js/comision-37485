@@ -1,7 +1,21 @@
-const totalCarrito = localStorage.getItem("totalCarrito");
-document.getElementById("cart-total").innerHTML = totalCarrito;
+const carrito = JSON.parse(localStorage.getItem("carrito")) ?? [];
+const total = carrito.reduce((acumulador, producto) => acumulador + producto.price, 0);
+document.getElementById("cart-total").innerHTML = `${carrito.length}  - $${total}`;
 
-const carrito = [];
+
+function generarCardsCarrito() {
+    carrito.forEach((producto) => {
+        document.getElementById("cards-modal").innerHTML += `<div>
+            <p>${producto.id}
+            - ${producto.title}
+            - <img src="${producto.img}" style="width:30px">
+            - ${producto.price}
+            - <button>Sacar del carrito</button>
+            </div>`
+    })
+    
+}
+
 
 const productos = [
     {
@@ -40,12 +54,19 @@ productos.forEach((producto) => {
     const idButton = `add-cart${producto.id}` 
     document.getElementById(idButton).addEventListener('click', () => {
         carrito.push(producto);
-
+        localStorage.setItem("carrito", JSON.stringify(carrito));
         const total = carrito.reduce((acumulador, producto) => acumulador + producto.price, 0);
-
-        // document.getElementById("cart-total").innerHTML = carrito.length + Number(totalCarrito) + "- $"+total;
-        document.getElementById("cart-total").innerHTML = `${carrito.length + Number(totalCarrito)}  - $${total}`;
-        localStorage.setItem("totalCarrito", carrito.length)
+        document.getElementById("cart-total").innerHTML = `${carrito.length} - $${total}`;
+        document.getElementById("cart-elements").innerHTML = ""
+        carrito.forEach((producto) => {
+            document.getElementById("cart-elements").innerHTML += `<tr>
+                <th scope="row">${producto.id}</th>
+                <td>${producto.title}</td>
+                <td><img src="${producto.img}" style="width:200px"></td>
+                <td>${producto.price}</td>
+                <td><button>Sacar del carrito</button></td>
+            </tr>`
+        })
     })
 });
 
