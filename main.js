@@ -41,14 +41,13 @@ const traerProductosBaseDeDatos = () =>{
 
 
 const buscarUnProductoEnMeli = () => {
-  fetch('https://api.mercadolibre.com/sites/MLA/search?q=sillas')
+  fetch('productos.json')
     .then((response) => response.json())
     .then(informacion => {
       let acumulador = ``;
-      informacion.results.forEach((producto) => {
+      informacion.forEach((producto) => {
         console.log(producto)
         acumulador += `<div class="card">
-          <img src="${producto.thumbnail}">
           <h2>${producto.title}</h2>
           <h2>$${producto.price}</h2>
         </div>`
